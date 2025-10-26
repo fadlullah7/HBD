@@ -265,13 +265,13 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi,Sharfina Ramadhany
+            const fullMessage = `Hi,Sharfina Ramadhany <br>
 
-Happy Birthday!
+Happy Birthday!<br>
 
 Hari ini, aku berikan doa terbaikku untukmu,semoga hal-hal yang membuat kamu runtuh menjadi alasan kamu untuk tumbuh.
 semoga dunia senantiasa menjaga kamu dimanapun kamu berada.semoga hari-hari kamu selalu diiringi cinta yang ridak pernah ada batasnya.dan semoga,senyum orang tua kamu yang selalu kamu usahakan itu kini sudah terlaksanakan 
-
+<br>
 ~Zami`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
