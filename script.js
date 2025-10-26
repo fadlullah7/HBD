@@ -622,7 +622,7 @@ function loadSpotifyPlaylist(playlistNumber) {
         },
         2: {
             // Ganti dengan playlist kedua kamu
-            embedUrl: 'https://open.spotify.com/playlist/0G9bhdW5GkfxPpvp0dxU8U?si=AZiwALAATWWWsOMvSo6OAw',
+            embedUrl: 'https://open.spotify.com/embed/playlist/0G9bhdW5GkfxPpvp0dxU8U?si=AZiwALAATWWWsOMvSo6OAw',
             name: 'Love Songs Collection',
             description: 'Koleksi lagu mungkin bisa bikin moodmu baik'
         },
